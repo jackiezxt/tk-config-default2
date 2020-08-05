@@ -104,6 +104,9 @@ engines.tk-shotgun.location:
 
 # VRED
 engines.tk-vred.location:
-  type: app_store
+  # type: app_store
+  type: dev
   name: tk-vred
   version: v2.0.6
+  mac_path: /opt/shotgun/dev/tk-vred
+  windows_path: Z:\dev\tk-vred

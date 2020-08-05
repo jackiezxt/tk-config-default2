@@ -329,4 +329,8 @@ settings.tk-multi-shotgunpanel.vred:
     - actions: [quicktime_clipboard, sequence_clipboard, add_to_playlist]
       filters: {}
   actions_hook: "{engine}/tk-multi-shotgunpanel/basic/scene_actions.py"
-  location: "@apps.tk-multi-shotgunpanel.location"
+  # location: "@apps.tk-multi-shotgunpanel.location"
+  location:
+    type: dev
+    windows_path: Z:\dev\tk-multi-shotgunpanel
+    mac_path: /opt/shotgun/dev/tk-multi-shotgunpanel

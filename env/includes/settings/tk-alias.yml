@@ -60,6 +60,12 @@ settings.tk-alias.asset_step:
 # project
 settings.tk-alias.project:
   apps:
+    tk-multi-testperfs:
+      location:
+        type: dev
+        mac_path: /opt/shotgun/dev/tk-multi-testperfs
+        windows_path: Z:\dev\tk-multi-testperfs
+        version: DEV
     tk-multi-about:
       location: "@apps.tk-multi-about.location"
     tk-multi-pythonconsole:
